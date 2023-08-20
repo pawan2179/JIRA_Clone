@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>JIRA Ticket Clone</title>
+</head>
+<body>
+    <!-- Toolbar -->
+    <div class="toolbox-cont">
+        <div class="toolbox-priority-cont">
+            <div class="color green"></div>
+            <div class="color yellow"></div>
+            <div class="color orange"></div>
+            <div class="color red"></div>
+        </div>
+        <div class="action-btn-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="remove-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main container  -->
+    <div class="main-cont">
+        <!-- <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">#Sample Id</div>
+            <div class="ticket-details">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum nulla pariatur, est inventore animi ab in consequatur officiis voluptatibus facere.</div>
+            <div class="ticket-lock">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        </div> -->
+    </div>
+    <!-- modal container -->
+    <div class="modal-cont">
+        <textarea class="text-area-cont"></textarea>
+        <div class="priority-color-cont">
+            <div class="priority-color green selected-priority"></div>
+            <div class="priority-color yellow"></div>
+            <div class="priority-color orange"></div>
+            <div class="priority-color red"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
